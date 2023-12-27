@@ -1,6 +1,5 @@
 using UnityEngine;
 using TMPro;
-using System;
 
 [ExecuteAlways]
 public class CoordinateLabeler : MonoBehaviour
