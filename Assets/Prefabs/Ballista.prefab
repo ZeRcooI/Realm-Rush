@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _weapon: {fileID: 3144582324300694500}
   _projectilParticles: {fileID: 6668245097477356369}
-  _range: 15
+  _range: 25
 --- !u!114 &1603790564489587217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,7 +169,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -179,7 +179,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.5
+      scalar: 1.75
       minScalar: 5
       maxCurve:
         serializedVersion: 2
