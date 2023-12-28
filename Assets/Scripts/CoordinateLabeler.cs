@@ -6,7 +6,7 @@ using TMPro;
 public class CoordinateLabeler : MonoBehaviour
 {
     [SerializeField] private Color _defaultColor = Color.white;
-    [SerializeField] private Color _blockedColor = Color.gray;
+    [SerializeField] private Color _blockedColor = Color.red;
 
     private TextMeshPro _label;
     private Vector2Int _coordinates = new Vector2Int();

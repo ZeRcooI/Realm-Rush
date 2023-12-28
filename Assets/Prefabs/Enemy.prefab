@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _path: []
-  _speed: 1
+  _speed: 0.5
 --- !u!65 &-9208801626703101664
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -166,8 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b5e2bf1b6c5fdf47b763cc6ccfe17cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHitPoints: 5
-  _currentHitPoints: 0
+  _maxHitPoints: 3
+  _difficultyRamp: 1
 --- !u!114 &6112421045371030823
 MonoBehaviour:
   m_ObjectHideFlags: 0
