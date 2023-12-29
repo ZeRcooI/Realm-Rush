@@ -78,8 +78,13 @@ public class CoordinateLabeler : MonoBehaviour
 
     private void DisolayCoordinates()
     {
-        _coordinates.x = Mathf.RoundToInt(transform.parent.position.x / UnityEditor.EditorSnapSettings.move.x);
-        _coordinates.y = Mathf.RoundToInt(transform.parent.position.z / UnityEditor.EditorSnapSettings.move.z);
+        if(_gridManager == null)
+        {
+            return;
+        }
+
+        _coordinates.x = Mathf.RoundToInt(transform.parent.position.x / _gridManager.UnityGridSize);
+        _coordinates.y = Mathf.RoundToInt(transform.parent.position.z / _gridManager.UnityGridSize);
 
         _label.text = $"{_coordinates.x},{_coordinates.y}";
     }
