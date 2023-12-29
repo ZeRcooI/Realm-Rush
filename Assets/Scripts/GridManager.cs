@@ -8,9 +8,21 @@ public class GridManager : MonoBehaviour
 
     private Dictionary<Vector2Int, Node> _grid = new Dictionary<Vector2Int, Node>();
 
+    public Dictionary<Vector2Int, Node> Grid => _grid;
+
     private void Awake()
     {
         CreateGrid();
+    }
+
+    public Node GetNode(Vector2Int coordinates)
+    {
+        if (_grid.ContainsKey(coordinates))
+        {
+            return _grid[coordinates];
+        }
+
+        return null;
     }
 
     private void CreateGrid()
