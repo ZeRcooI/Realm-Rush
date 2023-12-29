@@ -19,6 +19,9 @@ public class Pathfinder : MonoBehaviour
     private GridManager _gridManager;
     private Dictionary<Vector2Int, Node> _grid = new Dictionary<Vector2Int, Node>();
 
+    public Vector2Int StartCoordinates => _startCoordinates;
+    public Vector2Int DestinationCoordinates => _destinationCoordinates;
+
     private void Awake()
     {
         _gridManager = FindObjectOfType<GridManager>();
@@ -26,13 +29,13 @@ public class Pathfinder : MonoBehaviour
         if (_gridManager != null)
         {
             _grid = _gridManager.Grid;
+            _startNode = _grid[_startCoordinates];
+            _destinationNode = _grid[_destinationCoordinates];
         }
     }
 
     private void Start()
     {
-        _startNode = _gridManager.Grid[_startCoordinates];
-        _destinationNode = _gridManager.Grid[_destinationCoordinates];
 
         GetNewPath();
     }
@@ -96,6 +99,9 @@ public class Pathfinder : MonoBehaviour
 
     private void BreadthFirstSearch()
     {
+        _startNode.isWalkable = true;
+        _destinationNode.isWalkable = true;
+
         _frontier.Clear();
         _reached.Clear();
 
