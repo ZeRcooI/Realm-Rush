@@ -14,4 +14,4 @@
 
 ![Screenshot](https://github.com/ZeRcooI/Realm-Rush/blob/main/Assets/Scrennshots/Screenshot%202.jpg)
 
-![Screenshot](hhttps://github.com/ZeRcooI/Realm-Rush/blob/main/Assets/Scrennshots/Screenshot%203.jpg)
+![Screenshot](https://github.com/ZeRcooI/Realm-Rush/blob/main/Assets/Scrennshots/Screenshot%203.jpg)
