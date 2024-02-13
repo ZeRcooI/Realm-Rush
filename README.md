@@ -1,1 +1,17 @@
- * The preview can be viewed here: https://youtu.be/DptmSBXgPbY
+# Realm Rush - первая Tower Defence
+
+Сводка новых навыков в разработке Tower Defense в Unity:
+
+- Алгоритмы: Приобретение знаний о различных алгоритмах и понимание их применения в контексте игры Tower Defense, что позволяет создавать более правильное поведение системы.
+- Передвижение объектов по пути: Освоение навыков управления движением объектов по заранее определенному маршруту, что добавляет визуально представделение о Tower Defence.
+- Работа с канвасом: Улучшение понимания взаимодействия канваса со сценой, что делает пользовательский интерфейс более интуитивным и функциональным для игрока.
+- Использование GameManager: Открытие новых возможностей GameManager, что обеспечивает более удобное и эффективное управление игровым процессом и ресурсами.
+- Скрытие объектов: Освоение основ скрытия объектов для предотвращения наступления на путь врагами, что обеспечивает более гибкую и интеллектуальную адаптацию игровых алгоритмов к изменяющейся ситуации на поле боя.
+
+Небольшой отрывок игры: https://youtu.be/DptmSBXgPbY
+
+![Screenshot](https://github.com/ZeRcooI/Realm-Rush/blob/main/Assets/Scrennshots/Screenshot%201.jpg)
+
+![Screenshot](https://github.com/ZeRcooI/Realm-Rush/blob/main/Assets/Scrennshots/Screenshot%202.jpg)
+
+![Screenshot](hhttps://github.com/ZeRcooI/Realm-Rush/blob/main/Assets/Scrennshots/Screenshot%203.jpg)
